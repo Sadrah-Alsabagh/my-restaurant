@@ -24,7 +24,7 @@ Apple Pie .
 
 Spicy chicken meal.
 
-Naggits.
+Nuggets.
 
 
 Images:
@@ -34,4 +34,12 @@ Images:
 
 Link:
  	[Mac](https://mcdonalds.com.jo/)
+	
+
+## wirefram image:
+![alt text](restaurant.jpg)
+
+
+
+
     
