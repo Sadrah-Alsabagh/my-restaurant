@@ -1,0 +1,265 @@
+  *,
+  ::after,
+  ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0 100px;
+    background-color: #e5f6f0;
+  }
+
+
+  /* Navbar */
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+  }
+
+  .nav .logo h1 {
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #000000;
+  }
+
+  .nav .logo b {
+    color: #05AB6D;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .nav ul li {
+    margin-right: 30px;
+  }
+
+  .nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+  }
+
+  .nav ul li a:hover {
+    text-transform: uppercase;
+    border-radius: 45px;
+    padding: 7px;
+    margin-top: 10px;
+    color: #05AB6D;
+  }
+
+  input {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .call {
+    background: transparent;
+    border: none;
+  }
+
+  .reserv {
+    background-color: #05AB6D;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+  }
+
+
+  /* Hero Section */
+  .content {
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 30px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .content .content-left {
+    display: block;
+    width: 100%;
+  }
+
+  .content .content-left .description {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content .content-left .description h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+  }
+
+  .content .content-left .description p {
+    font-size: 23px;
+    line-height: 2pc;
+    margin-bottom: 30px;
+  }
+
+  .content .content-left button {
+    padding: 10px 23px;
+    background-color: #05AB6D;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .content .content-right img {
+    width: 400px;
+    height: auto;
+    position: relative;
+    animation: rotate 10s linear infinite;
+    user-select: none;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  /* Poular dishes section */
+  .popular-title {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #000000;
+  }
+
+
+
+  .category {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+  }
+
+  .category .list-items {
+    width: 90%;
+    position: relative;
+  }
+
+  .category .list-items {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 70px;
+  }
+
+  .category .list-items .card-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .category .list-items .card {
+    width: 200px;
+    height: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    background: #ffffff;
+    outline: 2px solid #6de9be;
+  }
+
+  .category .card-list .card img {
+    width: 100px;
+    height: auto;
+    bottom: 150px;
+    right: 26%;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    box-shadow: 0 20px 20px #6de9be;
+    border-radius: 50%;
+  }
+
+  .category .card-list .card .food-title {
+    padding: 40px 0 10px;
+  }
+
+  .category .card-list .card .food-title h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+
+  .category .card-list .card .desc-food p {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+  }
+
+  .category .card .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  /* Footer */
+  footer p {
+    padding: 0;
+    font-size: 13.3333px;
+    color: rgb(0, 0, 0);
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+    margin: 16px 0;
+  }
+
+  footer ul li a {
+    padding: 16px;
+    text-decoration: none;
+    color: rgba(3, 3, 3, 0.904);
+    transition: 100ms;
+  }
+
+  footer ul li a:hover {
+    color: #05AB6D;
+    text-transform: uppercase;
+  }
+
+  footer {
+    width: 100%;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    font-size: 19.2px;
+  }
