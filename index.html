@@ -1,39 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Foodie</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
-<body>
-    
- <header>
-    <img src="./assets/logo.png" alt="logo"/>
-    Foodie
 
-    <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="./about.html">About</a></li>
-    <li><a href="/">Menu</a></li>
-      </ul>
- </header>
+<body>
+
+    <header class="header">
+        <div class="nav">
+            <div class="logo">
+                <h1>Food<b>ie</b></h1>
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="/">Menu</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+            <div>
+                <input class="call" type="submit" value="Call Us" name="callus">
+                <input class="reserv" type="submit" value="Reservation" name="reservation">
+            </div>
+        </div>
+
+    </header>
     <main>
-        <p>Foodie restaurant contains different dishes(Arabic, Indian, Italian) type and all cooked in healthy way</p>
-    <div>
-        <h2>Our popular dishes</h2>
-        <img src="https://images.pexels.com/photos/2403391/pexels-photo-2403391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-        <img src="https://images.pexels.com/photos/2122294/pexels-photo-2122294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-    </div>
-</main>
-<footer>
-    <div>
-        <p>&copy; Copyright Foodie restaurant</p>
-         Amman, Jordan
-        foodie@gmail.com
-        +962 79 852 852 8
-    </div>
-</footer>
+        <div class="grid">
+            <div class="content">
+                <div class="content-left">
+                    <div class="description">
+                        <h2>We offer you <br> The Best Tasting Experience!</h2>
+                        <p>Foodie restaurant contains different dishes(Arabic, Indian, Italian) type and all cooked in
+                            healthy way</p>
+                    </div>
+                    <button> Show Menu</button>
+                </div>
+                <div class="content-right">
+                    <img src="./assets/hero.png">
+                </div>
+            </div>
+        </div>
+
+        <h3 class="popular-title">Our Popular Dishes</h3>
+        <div class="category">
+            <div class="list-items">
+                <div class="card-list">
+                    <div class="card">
+                        <img src="./assets/noodels.png">
+                        <div class="food-title">
+                            <h1>Noodles with chinese sauce</h1>
+                        </div>
+                        <div class="desc-food">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            <p>
+                        </div>
+                        <div class="price">
+                            <span>10.00$</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/maxican.png">
+                        <div class="food-title">
+                            <h1>Mexican chicken with rice</h1>
+                        </div>
+                        <div class="desc-food">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            <p>
+                        </div>
+                        <div class="price">
+                            <span>5.50$</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/pizza.png">
+                        <div class="food-title">
+                            <h1>Classic Italian pizza</h1>
+                        </div>
+                        <div class="desc-food">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            <p>
+                        </div>
+                        <div class="price">
+                            <span>1.00$</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/donut.png">
+                        <div class="food-title">
+                            <h1>Donut</h1>
+                        </div>
+                        <div class="desc-food">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            <p>
+                        </div>
+                        <div class="price">
+                            <span>1.50$</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <footer class="sticky-footer">
+        <ul>
+
+            <li><a href="https://web.facebook.com/?_rdc=1&_rdr">Facebook</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://twitter.com/?lang=en">Twitter</a></li>
+            <li><a href="#">foodie@gmail.com</a></li>
+            <li><a href="#">+962 79 852 852 8</a></li>
+        </ul>
+
+        <p>
+            &copy; Copyright Sedra
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+        </p>
+    </footer>
 
 </body>
+
 </html>
