@@ -31,6 +31,10 @@ body {
   color: #05AB6D;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav ul {
   display: flex;
   list-style: none;
@@ -75,7 +79,9 @@ input {
 }
 
 /* Form */
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #6de9be;
@@ -87,11 +93,11 @@ input[type=text], select, textarea {
   background-color: #e9f6f1;
 }
 
-h3{
-margin-top: 20px;
-margin-bottom: 10px;
-margin-left: 20px;
-font-size: 24px;
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 24px;
 }
 
 .from-submit {
@@ -112,42 +118,36 @@ font-size: 24px;
 
 /* Footer */
 footer p {
-    padding: 0;
-    font-size: 13.3333px; 
-    color: rgb(0, 0, 0);
-    margin: 16px 0; 
-    font-size: 16px; 
-    }
-    
-    footer ul {
-    list-style: none;
-    display: flex;
-    margin: 16px 0; 
-    }
-    
-    footer ul li a {
-    padding: 16px; 
-    text-decoration: none;
-    color: rgba(3, 3, 3, 0.904);
-    transition: 100ms;
-    }
-    
-    footer ul li a:hover {
-    color: #05AB6D;
-    text-transform: uppercase;
-    }
-    
-    footer {
-    width: 100%;
-    color: #fff;
-    display: grid;
-    place-items: center;
-    padding: 0;
-    font-size: 19.2px; 
-    }
-    
-    
-    
-    
-    
-    
+  padding: 0;
+  font-size: 13.3333px;
+  color: rgb(0, 0, 0);
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  margin: 16px 0;
+}
+
+footer ul li a {
+  padding: 16px;
+  text-decoration: none;
+  color: rgba(3, 3, 3, 0.904);
+  transition: 100ms;
+}
+
+footer ul li a:hover {
+  color: #05AB6D;
+  text-transform: uppercase;
+}
+
+footer {
+  width: 100%;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  font-size: 19.2px;
+}
